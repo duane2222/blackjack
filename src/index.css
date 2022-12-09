@@ -1,0 +1,105 @@
+body {
+  background: green;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  font-size: 20px;
+  background: white;
+  padding: 2px;
+  color:blue;
+}
+
+h1 {
+  font-size: 36px;
+  color: black;
+}
+
+h2 {
+  font-size: 26px;
+  color: black;
+}
+
+h3 {
+  font-size: 16px;
+  color: white;
+}
+
+h4 {
+  font-size: 22px;
+  color: yellow;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 15px;
+  color: white;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 5px;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+button.redBtn {
+  
+  background: red;
+  color: white;
+}
+
+
+@media (hover: hover) {
+  button:hover {
+    background: white;
+    color: black;
+  }
+
+  button.red:hover {
+    background: white;
+    color: red;
+  }
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.Card {
+  display: inline-block;
+  padding: 0px;
+}
+
+.Card img {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 175px;
+  width: 120px;
+}
+
+.blankCard {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 175px;
+  width: 120px;
+}
+
+
